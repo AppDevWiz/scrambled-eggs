@@ -70,23 +70,21 @@
 
 8 directories, 57 files
 
-Steps for "uscrambling the eggs"
+# Steps for "uscrambling the eggs"
 
-README.md
+1. Add all files using "git add ." command
 
-Add all files using "git add ." command
+2. Commit the above-mentioned action using "git commit -m "Initial commit"" command
 
-Commit the above-mentioned action using "git commit -m "Initial commit"" command
+3. Rename the "master" branch into "main" one according to the GitHub's new policy
 
-Rename the "master" branch into "main" one according to the GitHub's new policy
+4. Rename all markdown files only to lowercase style using "rename 'y/A-Z/a-z/' *.md" command
 
-Rename all markdown files only to lowercase style using "rename 'y/A-Z/a-z/' *.md" command
+5. Add all files using "git add ." command
 
-Add all files using "git add ." command
+6. Commit the changes using "git commit -m "Rename all markdown files only to lowercase style""
 
-Commit the changes using "git commit -m "Rename all markdown files only to lowercase style""
-
-Create "images" folder using "mkdir images" command
+7. Create "images" folder using "mkdir images" command
 
 Jump into "images" folder using "cd images/" command
 
