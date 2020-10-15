@@ -66,3 +66,81 @@
         └── generator_config.txt
 
 8 directories, 57 files
+
+Steps for "uscrambling the eggs"
+
+README.md
+
+Add all files using "git add ." command
+
+Commit the above-mentioned action using "git commit -m "Initial commit"" command
+
+Rename the "master" branch into "main" one according to the GitHub's new policy
+
+Rename all markdown files only to lowercase style using "rename 'y/A-Z/a-z/' *.md" command
+
+Add all files using "git add ." command
+
+Commit the changes using "git commit -m "Rename all markdown files only to lowercase style""
+
+Create "images" folder using "mkdir images" command
+
+Jump into "images" folder using "cd images/" command
+
+Create "icons" folder in the "images" folder using "mkdir icons" command
+
+Find all .svg files using "find *.svg" command
+
+Move all found .svg files only into "images" folder using "mv *svg images/" command
+
+Move all found .svg files only into "icons" folder inside the "images" folder using "mv *svg icons/" command
+
+Add all files using "git add ." command
+
+Commit the above-mentioned action using "git commit -m "Move all .svg files to /images/icons/""  command
+
+Move all .jpeg .jpg files only into "images" folder using "mv *jpeg *jpg images/" command
+
+Create a "content" folder in "scrambled-eggs" folder
+
+Move all .md files only into "content" folder using "mv *md content/" command
+
+Add all files using "git add ." command
+
+Commit the above-mentioned action using "git commit -m "Move all .md files only to scrambled-eggs/content/" command
+
+Create "fonts" folder using "mkdir fonts" command 
+
+Move all font files only to /scrambled-eggs/fonts/ using "mv *woff *woff2 *ttf ~/Documents/DCI_Course/15.10.2020/scrambled-eggs/scrambled-eggs/fonts/" command
+
+Add all files using "git add ." command
+
+Commit the above-mentioned action using "git commit -m "Move all .woff .woff2 .ttf files only to scrambled-eggs/fonts/" command
+
+Rename all remained files into lower-case style for unity purpose using "rename 'y/A-Z/a-z/' *" command
+
+Add all files using "git add ." command
+
+Commit the changes using "git commit -m "Rename all left files to lowercase style"" command
+
+Create "scripts" folder using "mkdir scripts" command
+
+Find all .js files only using "find *.js" command
+
+Move all .js files only using "mv *js scripts/" command
+
+Add all files using "git add ." command
+
+Commit the above-mentioned action using "git commit -m "Move all ""
+
+Move all existing .css fiels from all folders to scrambled-eggs/styles/ using "mv *.css ~/Documents/DCI_Course/15.10.2020/scrambled-eggs/scrambled-eggs/styles" command
+
+Create a src folder using "mkdir src" command 
+
+Copy all folders to src using "mv <folder name> src/" command
+
+Use "tree" command to print the folder structure
+
+Add the structure to the readme file using "tre > readme.md" command
+
+Move the readme.md from src/ to src/content/ folder using "mv readme.md content/"
